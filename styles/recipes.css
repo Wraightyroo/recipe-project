@@ -17,15 +17,40 @@ h2 {
   font-size: 24px;
 }
 
+p {
+  text-align: left;
+}
+
 .hero {
   position: relative;
-  text-align: center;
-  color: white;
+  margin: 0 auto;
+}
+
+.img {
+  width: 100%;
+  height: auto;
 }
 
 .header {
+  text-align: center;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.card {
+  margin: 0px 40px;
+  border: none;
+}
+
+.row {
+  margin: 50px 0px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 32px;
+  }
 }
