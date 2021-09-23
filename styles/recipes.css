@@ -3,7 +3,9 @@
 }
 
 body {
-  text-align: center;
+  color: #132743;
+  font-weight: 700;
+  font-family: var(--default-font-family);
 }
 
 h1 {
@@ -15,10 +17,13 @@ h1 {
 h2 {
   font-family: var(--default-font-family);
   font-size: 24px;
+  font-weight: 700;
 }
 
 p {
   text-align: left;
+  font-size: 34px;
+  color: #ee7499;
 }
 
 .hero {
@@ -33,7 +38,7 @@ p {
 
 .header {
   text-align: center;
-  color: white;
+  color: #132743;
   position: absolute;
   top: 50%;
   left: 50%;
