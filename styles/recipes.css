@@ -25,6 +25,37 @@ p {
   color: var(--second-color);
 }
 
+footer {
+  background: rgba(238, 116, 153, 0.4);
+  padding: 20px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--second-color);
+}
+
+footer .social-links a {
+  color: var(--second-color);
+  background: var(--branding-color);
+  margin: 0 20px;
+  font-size: 34px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--branding-color);
+  background: var(--second-color);
+}
+
 .active {
   color: var(--second-color) !important;
 }
